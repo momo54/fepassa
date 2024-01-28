@@ -31,6 +31,7 @@ public class Bazar extends Application {
     public static ProductListViewPanel productListViewPanel = new ProductListViewPanel();
     public static ProductViewPanel productViewPanel = new ProductViewPanel();
     public static FederationViewPanel federationViewPanel = new FederationViewPanel();
+    public static ReviewerViewPanel reviewerViewPanel = new ReviewerViewPanel();
 
     @Override
     public void start(Stage primaryStage) {
@@ -87,6 +88,7 @@ public class Bazar extends Application {
         VBox.setVgrow(federationViewPanel, Priority.ALWAYS);
 
         root.setLeft(vb);
+        root.setRight(reviewerViewPanel);
 
         SplitPane sp = new SplitPane();
         sp.setOrientation(Orientation.VERTICAL);
@@ -97,7 +99,7 @@ public class Bazar extends Application {
 
         Scene scene = new Scene(root, 800, 600);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Fepassa: The Federated Shop");
+        primaryStage.setTitle("Fepassa: The Federated Shop Demo");
         primaryStage.show();
     }
 

@@ -27,12 +27,20 @@ public class ProductListViewPanel extends BorderPane {
     
     private TableView<BindingSet> tableView = new TableView<>();;
     private Button button1 = new Button("Product",new FontIcon(Material.SEARCH));
-    private Button button2 = new Button("Detailed Product",new FontIcon(Material.SEARCH));;
-
+    private Button button2 = new Button("Detailed Product",new FontIcon(Material.SEARCH));
+    private Button button3 = new Button("Similar Product",new FontIcon(Material.SEARCH));
+    private Button button4 = new Button("Recent Reviews",new FontIcon(Material.SEARCH));
+    private Button button5 = new Button("Offer 3 days",new FontIcon(Material.SEARCH));
+//
     public ProductListViewPanel() {
         title.getStyleClass().addAll(Styles.TITLE_2);
         button1.setDefaultButton(true);
         button2.setDefaultButton(true);
+        button3.setDefaultButton(true);
+        button4.setDefaultButton(true);
+        button5.setDefaultButton(true);
+//        button6.setDefaultButton(true);
+
         this.setTop(title);
         this.setCenter(tableView);
 
@@ -51,7 +59,7 @@ public class ProductListViewPanel extends BorderPane {
                 int lastIndex = url.lastIndexOf('/');
                 if (lastIndex >= 0 && lastIndex < url.length() - 1) {
                     productName=url.substring(lastIndex + 1);
-                    Bazar.productViewPanel.viewProduct("bsbm:"+productName,false);
+                    Bazar.productViewPanel.viewProduct("bsbm:"+productName,"Q07");
                 } else {
                     System.out.println("error on productName"); // or return null or the original URL based on your requirement
                 }
@@ -75,7 +83,7 @@ public class ProductListViewPanel extends BorderPane {
                 int lastIndex = url.lastIndexOf('/');
                 if (lastIndex >= 0 && lastIndex < url.length() - 1) {
                     productName=url.substring(lastIndex + 1);
-                    Bazar.productViewPanel.viewProduct("bsbm:"+productName,true);
+                    Bazar.productViewPanel.viewProduct("bsbm:"+productName,"Q07");
                 } else {
                     System.out.println("error on productName"); // or return null or the original URL based on your requirement
                 }
@@ -83,8 +91,89 @@ public class ProductListViewPanel extends BorderPane {
             }
         });
 
+        button3.setOnAction(event -> {
+            // Perform the action when the button is clicked
+            BindingSet selectedRow = tableView.getSelectionModel().getSelectedItem();
+            if (selectedRow != null) {
+                // Get the product name from the selected row
+                String url = selectedRow.getValue("localProduct").stringValue();
+
+                // Trigger your query using the selected product name
+                System.out.println("Double-clicked on product: " + url);
+
+                String productName=null;
+                int lastIndex = url.lastIndexOf('/');
+                if (lastIndex >= 0 && lastIndex < url.length() - 1) {
+                    productName=url.substring(lastIndex + 1);
+                    Bazar.productViewPanel.viewProduct("bsbm:"+productName,"Q05");
+                } else {
+                    System.out.println("error on productName"); // or return null or the original URL based on your requirement
+                }
+
+            }
+        });
+
+        button4.setOnAction(event -> {
+            // Perform the action when the button is clicked
+            BindingSet selectedRow = tableView.getSelectionModel().getSelectedItem();
+            if (selectedRow != null) {
+                // Get the product name from the selected row
+                String url = selectedRow.getValue("localProduct").stringValue();
+
+                // Trigger your query using the selected product name
+                System.out.println("Double-clicked on product: " + url);
+
+                String productName=null;
+                int lastIndex = url.lastIndexOf('/');
+                if (lastIndex >= 0 && lastIndex < url.length() - 1) {
+                    productName=url.substring(lastIndex + 1);
+                    Bazar.productViewPanel.viewProduct("bsbm:"+productName,"Q08");
+                } else {
+                    System.out.println("error on productName"); // or return null or the original URL based on your requirement
+                }
+
+            }
+        });
+
+        button5.setOnAction(event -> {
+            // Perform the action when the button is clicked
+            BindingSet selectedRow = tableView.getSelectionModel().getSelectedItem();
+            if (selectedRow != null) {
+                // Get the product name from the selected row
+                String url = selectedRow.getValue("localProduct").stringValue();
+
+                // Trigger your query using the selected product name
+                System.out.println("Double-clicked on product: " + url);
+
+                String productName=null;
+                int lastIndex = url.lastIndexOf('/');
+                if (lastIndex >= 0 && lastIndex < url.length() - 1) {
+                    productName=url.substring(lastIndex + 1);
+                    Bazar.productViewPanel.viewProduct("bsbm:"+productName,"Q10");
+                } else {
+                    System.out.println("error on productName"); // or return null or the original URL based on your requirement
+                }
+
+            }
+        });
+
+        // button6.setOnAction(event -> {
+        //     // Perform the action when the button is clicked
+        //     BindingSet selectedRow = tableView.getSelectionModel().getSelectedItem();
+        //     if (selectedRow != null) {
+        //         // Get the product name from the selected row
+        //         String url = selectedRow.getValue("localProduct").stringValue();
+
+        //         // Trigger your query using the selected product name
+        //         System.out.println("Double-clicked on product: " + url);
+
+        //             Bazar.productViewPanel.viewOffer(url,"Q11");
+        //     }
+        // });
+
+
         HBox hbox = new HBox();
-        hbox.getChildren().addAll(button1, button2);
+        hbox.getChildren().addAll(button1, button2,button3,button4,button5);
         hbox.setAlignment(Pos.CENTER); // Centrer les boutons horizontalement
         hbox.setSpacing(10); // Espacer les boutons de 10 pixels
 
