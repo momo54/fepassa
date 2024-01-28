@@ -1,0 +1,15 @@
+*.log
+*~
+./fedshop/fedshop-virtuoso.db
+./fedshop/virtuoso-temp.db
+./fedshop/virtuoso.log
+./fedshop/virtuoso.pxa
+./fedshop/virtuoso.trx
+./fedshop/virtuoso.lck
+./jenadata50
+./jenadata100
+./jenadata200
+
+
+
+
