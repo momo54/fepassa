@@ -1,0 +1,3220 @@
+﻿==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_0/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType647
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType647 .
+
+
+    # const bsbm:ProductFeature8774
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature8774 .
+
+
+    # const bsbm:ProductFeature16935
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature16935 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "744"^^xsd:integer < ?value1
+    FILTER (?value1 > "744"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_1/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType282
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType282 .
+
+
+    # const bsbm:ProductFeature23911
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature23911 .
+
+
+    # const bsbm:ProductFeature23846
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature23846 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "1003"^^xsd:integer < ?value1
+    FILTER (?value1 > "1003"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_2/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType669
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType669 .
+
+
+    # const bsbm:ProductFeature19269
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature19269 .
+
+
+    # const bsbm:ProductFeature25654
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature25654 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "1097"^^xsd:integer < ?value1
+    FILTER (?value1 > "1097"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_3/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType176
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType176 .
+
+
+    # const bsbm:ProductFeature24094
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature24094 .
+
+
+    # const bsbm:ProductFeature29288
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature29288 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "770"^^xsd:integer < ?value1
+    FILTER (?value1 > "770"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_4/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType616
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType616 .
+
+
+    # const bsbm:ProductFeature27936
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature27936 .
+
+
+    # const bsbm:ProductFeature20446
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature20446 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "775"^^xsd:integer < ?value1
+    FILTER (?value1 > "775"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_5/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType52
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType52 .
+
+
+    # const bsbm:ProductFeature24169
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature24169 .
+
+
+    # const bsbm:ProductFeature11646
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature11646 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "744"^^xsd:integer < ?value1
+    FILTER (?value1 > "744"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_6/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType464
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType464 .
+
+
+    # const bsbm:ProductFeature32006
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature32006 .
+
+
+    # const bsbm:ProductFeature23377
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature23377 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "775"^^xsd:integer < ?value1
+    FILTER (?value1 > "775"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_7/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType468
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType468 .
+
+
+    # const bsbm:ProductFeature14314
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature14314 .
+
+
+    # const bsbm:ProductFeature25883
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature25883 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "770"^^xsd:integer < ?value1
+    FILTER (?value1 > "770"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_8/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType543
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType543 .
+
+
+    # const bsbm:ProductFeature19363
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature19363 .
+
+
+    # const bsbm:ProductFeature13947
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature13947 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "770"^^xsd:integer < ?value1
+    FILTER (?value1 > "770"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q01/instance_9/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE { 
+    ?product rdfs:label ?label .
+    
+    # const bsbm:ProductType743
+    ?product rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType743 .
+
+
+    # const bsbm:ProductFeature22146
+    ?product bsbm:productFeature ?localProductFeature1 . 
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature22146 .
+
+
+    # const bsbm:ProductFeature27125
+    ?product bsbm:productFeature ?localProductFeature2 . 
+    ?localProductFeature2 owl:sameAs bsbm:ProductFeature27125 .
+    ?product bsbm:productPropertyNumeric1 ?value1 . 
+    
+    # const "744"^^xsd:integer < ?value1
+    FILTER (?value1 > "744"^^xsd:integer) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_0/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product89328
+    ?localProduct owl:sameAs bsbm:Product89328 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_1/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product116212
+    ?localProduct owl:sameAs bsbm:Product116212 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_2/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product97106
+    ?localProduct owl:sameAs bsbm:Product97106 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_3/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product179830
+    ?localProduct owl:sameAs bsbm:Product179830 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_4/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product73476
+    ?localProduct owl:sameAs bsbm:Product73476 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_5/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product148328
+    ?localProduct owl:sameAs bsbm:Product148328 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_6/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product95319
+    ?localProduct owl:sameAs bsbm:Product95319 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_7/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product79796
+    ?localProduct owl:sameAs bsbm:Product79796 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_8/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product91996
+    ?localProduct owl:sameAs bsbm:Product91996 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q02/instance_9/injected.sparql <==
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?label ?comment ?producer ?ProductFeatureLabel ?propertyTextual1 ?propertyTextual2 ?propertyTextual3 ?propertyNumeric1 ?propertyNumeric2 ?propertyTextual4 ?propertyTextual5 ?propertyNumeric4  WHERE {
+    # const bsbm:Product150726
+    ?localProduct owl:sameAs bsbm:Product150726 .
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdfs:comment ?comment .
+    ?localProduct bsbm:producer ?p .
+    ?p rdfs:label ?producer .
+    #?localProduct dc:publisher ?p . 
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs ?ProductFeature1 .
+    ?localProductFeature1 rdfs:label ?ProductFeatureLabel .
+    ?localProduct bsbm:productPropertyTextual1 ?propertyTextual1 .
+    ?localProduct bsbm:productPropertyTextual2 ?propertyTextual2 .
+    ?localProduct bsbm:productPropertyTextual3 ?propertyTextual3 .
+    ?localProduct bsbm:productPropertyNumeric1 ?propertyNumeric1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?propertyNumeric2 .
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual4 ?propertyTextual4 }
+    OPTIONAL { ?localProduct bsbm:productPropertyTextual5 ?propertyTextual5 }
+    OPTIONAL { ?localProduct bsbm:productPropertyNumeric4 ?propertyNumeric4 }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_0/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType532
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType532 .
+
+
+    # const bsbm:ProductFeature18075
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature18075 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "1125"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "1125"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "1369"^^xsd:integer > ?p3
+    FILTER (?p3 < "1369"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature22096
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature22096 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_1/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType572
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType572 .
+
+
+    # const bsbm:ProductFeature13506
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature13506 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "401"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "401"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "968"^^xsd:integer > ?p3
+    FILTER (?p3 < "968"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature30516
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature30516 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_2/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType651
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType651 .
+
+
+    # const bsbm:ProductFeature18675
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature18675 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "825"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "825"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "885"^^xsd:integer > ?p3
+    FILTER (?p3 < "885"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature7846
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature7846 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_3/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType594
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType594 .
+
+
+    # const bsbm:ProductFeature16236
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature16236 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "669"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "669"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "710"^^xsd:integer > ?p3
+    FILTER (?p3 < "710"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature26195
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature26195 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_4/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType609
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType609 .
+
+
+    # const bsbm:ProductFeature14645
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature14645 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "824"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "824"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "1556"^^xsd:integer > ?p3
+    FILTER (?p3 < "1556"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature23336
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature23336 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_5/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType293
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType293 .
+
+
+    # const bsbm:ProductFeature21984
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature21984 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "556"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "556"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "975"^^xsd:integer > ?p3
+    FILTER (?p3 < "975"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature28167
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature28167 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_6/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType346
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType346 .
+
+
+    # const bsbm:ProductFeature15466
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature15466 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "652"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "652"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "1200"^^xsd:integer > ?p3
+    FILTER (?p3 < "1200"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature16458
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature16458 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_7/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType517
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType517 .
+
+
+    # const bsbm:ProductFeature23352
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature23352 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "87"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "87"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "1517"^^xsd:integer > ?p3
+    FILTER (?p3 < "1517"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature33853
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature33853 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_8/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType562
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType562 .
+
+
+    # const bsbm:ProductFeature14769
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature14769 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "797"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "797"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "1072"^^xsd:integer > ?p3
+    FILTER (?p3 < "1072"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature21307
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature21307 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q03/instance_9/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label WHERE {
+    ?localProduct owl:sameAs ?product .
+    ?localProduct rdfs:label ?label .
+    # const bsbm:ProductType400
+    ?localProduct rdf:type ?localProductType .
+    ?localProductType owl:sameAs bsbm:ProductType400 .
+
+
+    # const bsbm:ProductFeature9164
+    ?localProduct bsbm:productFeature ?localProductFeature1 .
+    ?localProductFeature1 owl:sameAs bsbm:ProductFeature9164 .
+    ?localProduct bsbm:productPropertyNumeric1 ?p1 .
+    # const "651"^^xsd:integer < ?p1 
+    FILTER ( ?p1 > "651"^^xsd:integer ) 
+    ?localProduct bsbm:productPropertyNumeric3 ?p3 .
+    # const "1170"^^xsd:integer > ?p3
+    FILTER (?p3 < "1170"^^xsd:integer )
+    
+    OPTIONAL { 
+        # const!* not bsbm:ProductFeature12662
+        ?localProduct bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature12662 .
+        ?localProduct rdfs:label ?testVar 
+    }
+    FILTER (!bound(?testVar)) 
+}
+ORDER BY ?product ?label
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_0/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType630
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType630 .
+        # const!* bsbm:ProductFeature19851
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature19851.
+        # const** bsbm:ProductFeature19019 != bsbm:ProductFeature19851
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature19019.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "901.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "901.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType630
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType630 .
+        # const!* bsbm:ProductFeature19851
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature19851 .
+        # const* bsbm:ProductFeature25702 != bsbm:ProductFeature19019, bsbm:ProductFeature19851
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature25702 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "519.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "519.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_1/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType398
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType398 .
+        # const!* bsbm:ProductFeature18986
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature18986.
+        # const** bsbm:ProductFeature24424 != bsbm:ProductFeature18986
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature24424.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "1036.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "1036.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType398
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType398 .
+        # const!* bsbm:ProductFeature18986
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature18986 .
+        # const* bsbm:ProductFeature19400 != bsbm:ProductFeature24424, bsbm:ProductFeature18986
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature19400 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "854.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "854.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_2/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType775
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType775 .
+        # const!* bsbm:ProductFeature30789
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature30789.
+        # const** bsbm:ProductFeature8048 != bsbm:ProductFeature30789
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature8048.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "1105.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "1105.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType775
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType775 .
+        # const!* bsbm:ProductFeature30789
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature30789 .
+        # const* bsbm:ProductFeature22975 != bsbm:ProductFeature8048, bsbm:ProductFeature30789
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature22975 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "1266.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "1266.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_3/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType433
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType433 .
+        # const!* bsbm:ProductFeature21348
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature21348.
+        # const** bsbm:ProductFeature22623 != bsbm:ProductFeature21348
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature22623.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "699.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "699.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType433
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType433 .
+        # const!* bsbm:ProductFeature21348
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature21348 .
+        # const* bsbm:ProductFeature11785 != bsbm:ProductFeature22623, bsbm:ProductFeature21348
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature11785 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "1069.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "1069.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_4/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType544
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType544 .
+        # const!* bsbm:ProductFeature16299
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature16299.
+        # const** bsbm:ProductFeature16765 != bsbm:ProductFeature16299
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature16765.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "1668.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "1668.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType544
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType544 .
+        # const!* bsbm:ProductFeature16299
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature16299 .
+        # const* bsbm:ProductFeature22074 != bsbm:ProductFeature16765, bsbm:ProductFeature16299
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature22074 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "402.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "402.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_5/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType597
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType597 .
+        # const!* bsbm:ProductFeature18499
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature18499.
+        # const** bsbm:ProductFeature19842 != bsbm:ProductFeature18499
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature19842.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "1002.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "1002.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType597
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType597 .
+        # const!* bsbm:ProductFeature18499
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature18499 .
+        # const* bsbm:ProductFeature27760 != bsbm:ProductFeature19842, bsbm:ProductFeature18499
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature27760 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "656.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "656.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_6/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType680
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType680 .
+        # const!* bsbm:ProductFeature31456
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature31456.
+        # const** bsbm:ProductFeature26730 != bsbm:ProductFeature31456
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature26730.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "1274.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "1274.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType680
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType680 .
+        # const!* bsbm:ProductFeature31456
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature31456 .
+        # const* bsbm:ProductFeature28285 != bsbm:ProductFeature26730, bsbm:ProductFeature31456
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature28285 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "857.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "857.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_7/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType593
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType593 .
+        # const!* bsbm:ProductFeature20512
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature20512.
+        # const** bsbm:ProductFeature20416 != bsbm:ProductFeature20512
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature20416.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "1327.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "1327.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType593
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType593 .
+        # const!* bsbm:ProductFeature20512
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature20512 .
+        # const* bsbm:ProductFeature14005 != bsbm:ProductFeature20416, bsbm:ProductFeature20512
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature14005 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "1218.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "1218.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_8/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType381
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType381 .
+        # const!* bsbm:ProductFeature23151
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature23151.
+        # const** bsbm:ProductFeature15239 != bsbm:ProductFeature23151
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature15239.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "1019.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "1019.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType381
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType381 .
+        # const!* bsbm:ProductFeature23151
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature23151 .
+        # const* bsbm:ProductFeature10180 != bsbm:ProductFeature15239, bsbm:ProductFeature23151
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature10180 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "1430.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "1430.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q04/instance_9/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?label ?propertyTextual WHERE {
+    { 
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType412
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType412 .
+        # const!* bsbm:ProductFeature22368
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature22368.
+        # const** bsbm:ProductFeature24662 != bsbm:ProductFeature22368
+        ?product bsbm:productFeature ?localProductFeature2 .
+        ?localProductFeature2 owl:sameAs bsbm:ProductFeature24662.
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric1 ?p1 .
+        # const** "881.0"^^xsd:double < ?p1
+        FILTER ( ?p1 > "881.0"^^xsd:double )
+    } UNION {
+        ?product rdfs:label ?label .
+        # const!* bsbm:ProductType412
+        ?product rdf:type ?localProductType .
+        ?localProductType owl:sameAs bsbm:ProductType412 .
+        # const!* bsbm:ProductFeature22368
+        ?product bsbm:productFeature ?localProductFeature1 .
+        ?localProductFeature1 owl:sameAs bsbm:ProductFeature22368 .
+        # const* bsbm:ProductFeature14348 != bsbm:ProductFeature24662, bsbm:ProductFeature22368
+        ?product bsbm:productFeature ?localProductFeature3 .
+        ?localProductFeature3 owl:sameAs bsbm:ProductFeature14348 .
+        ?product bsbm:productPropertyTextual1 ?propertyTextual .
+        ?product bsbm:productPropertyNumeric2 ?p2 .
+        # const "695.0"^^xsd:double < ?p2
+        FILTER ( ?p2 > "695.0"^^xsd:double ) 
+    } 
+}
+ORDER BY ?product ?label ?propertyTextual
+##OFFSET 5
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_0/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product136030
+    ?localProductXYZ owl:sameAs bsbm:Product136030 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product136030 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_1/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product43923
+    ?localProductXYZ owl:sameAs bsbm:Product43923 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product43923 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_2/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product64534
+    ?localProductXYZ owl:sameAs bsbm:Product64534 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product64534 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_3/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product32571
+    ?localProductXYZ owl:sameAs bsbm:Product32571 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product32571 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_4/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product122890
+    ?localProductXYZ owl:sameAs bsbm:Product122890 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product122890 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_5/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product79519
+    ?localProductXYZ owl:sameAs bsbm:Product79519 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product79519 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_6/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product144075
+    ?localProductXYZ owl:sameAs bsbm:Product144075 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product144075 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_7/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product94610
+    ?localProductXYZ owl:sameAs bsbm:Product94610 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product94610 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_8/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product166471
+    ?localProductXYZ owl:sameAs bsbm:Product166471 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product166471 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q05/instance_9/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?product ?localProductLabel WHERE { 
+    ?localProduct rdfs:label ?localProductLabel .
+    
+    ?localProduct bsbm:productFeature ?localProdFeature .
+    ?localProduct bsbm:productPropertyNumeric1 ?simProperty1 .
+    ?localProduct bsbm:productPropertyNumeric2 ?simProperty2 .    
+
+
+    ?localProduct owl:sameAs ?product .
+    ?localProdFeature owl:sameAs ?prodFeature .
+
+
+    ?localProductXYZ bsbm:productFeature ?localProdFeatureXYZ .
+    ?localProductXYZ bsbm:productPropertyNumeric1 ?origProperty1 .
+    ?localProductXYZ bsbm:productPropertyNumeric2 ?origProperty2 .
+
+
+    # const bsbm:Product171547
+    ?localProductXYZ owl:sameAs bsbm:Product171547 .
+    ?localProdFeatureXYZ owl:sameAs ?prodFeature .
+
+
+    FILTER(bsbm:Product171547 != ?product)
+    # Values are pre-determined because we knew the boundaries from the normal distribution
+    FILTER(?simProperty1 < (?origProperty1 + 20) && ?simProperty1 > (?origProperty1 - 20))
+    FILTER(?simProperty2 < (?origProperty2 + 70) && ?simProperty2 > (?origProperty2 - 70))
+}
+ORDER BY ?product ?localProductLabel
+LIMIT 5
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_0/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "pyrenees" in ?label 
+    FILTER regex(lcase(str(?label)), "pyrenees")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_1/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "cathay" in ?label 
+    FILTER regex(lcase(str(?label)), "cathay")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_2/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "fantastically" in ?label 
+    FILTER regex(lcase(str(?label)), "fantastically")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_3/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "pyrenees" in ?label 
+    FILTER regex(lcase(str(?label)), "pyrenees")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_4/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "avogadro" in ?label 
+    FILTER regex(lcase(str(?label)), "avogadro")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_5/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "imaginable" in ?label 
+    FILTER regex(lcase(str(?label)), "imaginable")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_6/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "avogadro" in ?label 
+    FILTER regex(lcase(str(?label)), "avogadro")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_7/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "cathay" in ?label 
+    FILTER regex(lcase(str(?label)), "cathay")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_8/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "cathay" in ?label 
+    FILTER regex(lcase(str(?label)), "cathay")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q06/instance_9/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?localProduct ?label WHERE {
+    ?localProduct rdfs:label ?label .
+    ?localProduct rdf:type bsbm:Product .
+    # const "protestants" in ?label 
+    FILTER regex(lcase(str(?label)), "protestants")
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_0/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product107874
+    ?localProduct owl:sameAs bsbm:Product107874 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product107874 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-08-27T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-08-27T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product107874 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_1/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product145965
+    ?localProduct owl:sameAs bsbm:Product145965 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product145965 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-05-20T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-05-20T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product145965 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_2/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product79338
+    ?localProduct owl:sameAs bsbm:Product79338 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product79338 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-05-24T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-05-24T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product79338 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_3/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product81451
+    ?localProduct owl:sameAs bsbm:Product81451 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product81451 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-02-28T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-02-28T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product81451 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_4/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product156848
+    ?localProduct owl:sameAs bsbm:Product156848 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product156848 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-08-20T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-08-20T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product156848 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_5/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product72080
+    ?localProduct owl:sameAs bsbm:Product72080 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product72080 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-04-25T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-04-25T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product72080 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_6/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product82905
+    ?localProduct owl:sameAs bsbm:Product82905 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product82905 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-03-24T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-03-24T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product82905 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_7/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product135530
+    ?localProduct owl:sameAs bsbm:Product135530 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product135530 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-02-12T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-02-12T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product135530 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_8/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product73887
+    ?localProduct owl:sameAs bsbm:Product73887 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product73887 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-03-04T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-03-04T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product73887 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q07/instance_9/injected.sparql <==
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?productLabel ?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2 WHERE { 
+    ?localProduct rdf:type bsbm:Product .
+    # const bsbm:Product111421
+    ?localProduct owl:sameAs bsbm:Product111421 .
+    ?localProduct rdfs:label ?productLabel .
+
+
+    OPTIONAL {
+        ?offer bsbm:product ?offerProduct .
+        ?offerProduct  owl:sameAs bsbm:Product111421 .  
+        ?offer bsbm:price ?price .
+        ?offer bsbm:vendor ?vendor .
+        ?vendor rdfs:label ?vendorTitle .
+        ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#FR> .
+        ?offer bsbm:validTo ?date .
+
+
+        # const "2008-03-21T00:00:00"^^xsd:dateTime < ?date 
+        FILTER (?date > "2008-03-21T00:00:00"^^xsd:dateTime )
+    }
+    OPTIONAL {
+        ?review bsbm:reviewFor ?reviewProduct .
+        ?reviewProduct owl:sameAs bsbm:Product111421 .
+        ?review rev:reviewer ?reviewer .
+        ?reviewer foaf:name ?revName .
+        ?review dc:title ?revTitle .
+        OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+        OPTIONAL { ?review bsbm:rating2 ?rating2 . } 
+    }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_0/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product98654
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product98654 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_1/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product74034
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product74034 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_2/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product58958
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product58958 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_3/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product147300
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product147300 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_4/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product25904
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product25904 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_5/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product97918
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product97918 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_6/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product70858
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product70858 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_7/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product45413
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product45413 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_8/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product125657
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product125657 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q08/instance_9/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4  WHERE { 
+    # const bsbm:Product124038
+    ?review bsbm:reviewFor ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product124038 .
+    ?review dc:title ?title .
+    ?review rev:text ?text .
+    FILTER(langMatches( lang(?text), "en" ))
+    ?review bsbm:reviewDate ?reviewDate .
+    ?review rev:reviewer ?reviewer .
+    ?reviewer foaf:name ?reviewerName .
+    OPTIONAL { ?review bsbm:rating1 ?rating1 . }
+    OPTIONAL { ?review bsbm:rating2 ?rating2 . }
+    OPTIONAL { ?review bsbm:rating3 ?rating3 . }
+    OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}
+ORDER BY ?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4
+LIMIT 20
+
+
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_0/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite2.fr/Review10532>
+    <http://www.ratingsite2.fr/Review10532> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_1/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite2.fr/Review3612>
+    <http://www.ratingsite2.fr/Review3612> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_2/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite3.fr/Review1276>
+    <http://www.ratingsite3.fr/Review1276> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_3/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite0.fr/Review6739>
+    <http://www.ratingsite0.fr/Review6739> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_4/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite6.fr/Review2778>
+    <http://www.ratingsite6.fr/Review2778> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_5/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite3.fr/Review2163>
+    <http://www.ratingsite3.fr/Review2163> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_6/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite8.fr/Review1928>
+    <http://www.ratingsite8.fr/Review1928> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_7/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite0.fr/Review7593>
+    <http://www.ratingsite0.fr/Review7593> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_8/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite5.fr/Review3043>
+    <http://www.ratingsite5.fr/Review3043> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q09/instance_9/injected.sparql <==
+PREFIX rev: <http://purl.org/stuff/rev#>
+
+
+SELECT DISTINCT ?x WHERE { 
+    # const <http://www.ratingsite4.fr/Review6027>
+    <http://www.ratingsite4.fr/Review6027> rev:reviewer ?x 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_0/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product80530
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product80530 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-04-10T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-04-10T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_1/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product89481
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product89481 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-05-04T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-05-04T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_2/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product155493
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product155493 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-06-05T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-06-05T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_3/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product111914
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product111914 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-05-04T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-05-04T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_4/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product87739
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product87739 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-04-10T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-04-10T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_5/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product127797
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product127797 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-05-04T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-05-04T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_6/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product26425
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product26425 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-06-05T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-06-05T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_7/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product57982
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product57982 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-04-10T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-04-10T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_8/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product109436
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product109436 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-05-24T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-05-24T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q10/instance_9/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT ?offer ?price WHERE {
+    # const bsbm:Product105403
+    ?offer bsbm:product ?localProductXYZ .
+    ?localProductXYZ owl:sameAs bsbm:Product105403 .
+    ?offer bsbm:vendor ?vendor .
+    #?offer dc:publisher ?vendor .
+    ?vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?offer bsbm:deliveryDays ?deliveryDays .
+    FILTER(?deliveryDays <= 3)
+    ?offer bsbm:price ?price .
+    ?offer bsbm:validTo ?date .
+    # const "2008-06-05T00:00:00"^^xsd:dateTime < ?date
+    FILTER (?date > "2008-06-05T00:00:00"^^xsd:dateTime )
+}
+ORDER BY ?offer ?price
+LIMIT 10
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_0/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor6.fr/Offer886>
+    <http://www.vendor6.fr/Offer886> bsbm:product ?product . 
+    { <http://www.vendor6.fr/Offer886> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor6.fr/Offer886> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_1/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor0.fr/Offer2610>
+    <http://www.vendor0.fr/Offer2610> bsbm:product ?product . 
+    { <http://www.vendor0.fr/Offer2610> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor0.fr/Offer2610> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_2/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor3.fr/Offer1038>
+    <http://www.vendor3.fr/Offer1038> bsbm:product ?product . 
+    { <http://www.vendor3.fr/Offer1038> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor3.fr/Offer1038> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_3/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor0.fr/Offer349>
+    <http://www.vendor0.fr/Offer349> bsbm:product ?product . 
+    { <http://www.vendor0.fr/Offer349> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor0.fr/Offer349> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_4/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor2.fr/Offer1378>
+    <http://www.vendor2.fr/Offer1378> bsbm:product ?product . 
+    { <http://www.vendor2.fr/Offer1378> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor2.fr/Offer1378> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_5/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor8.fr/Offer563>
+    <http://www.vendor8.fr/Offer563> bsbm:product ?product . 
+    { <http://www.vendor8.fr/Offer563> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor8.fr/Offer563> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_6/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor8.fr/Offer992>
+    <http://www.vendor8.fr/Offer992> bsbm:product ?product . 
+    { <http://www.vendor8.fr/Offer992> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor8.fr/Offer992> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_7/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor8.fr/Offer378>
+    <http://www.vendor8.fr/Offer378> bsbm:product ?product . 
+    { <http://www.vendor8.fr/Offer378> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor8.fr/Offer378> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_8/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor6.fr/Offer945>
+    <http://www.vendor6.fr/Offer945> bsbm:product ?product . 
+    { <http://www.vendor6.fr/Offer945> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor6.fr/Offer945> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q11/instance_9/injected.sparql <==
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf WHERE {
+    # const <http://www.vendor0.fr/Offer524>
+    <http://www.vendor0.fr/Offer524> bsbm:product ?product . 
+    { <http://www.vendor0.fr/Offer524> ?property ?hasValue }
+    UNION
+    { ?isValueOf ?property <http://www.vendor0.fr/Offer524> }
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_0/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor7.fr/Offer858>
+    <http://www.vendor7.fr/Offer858> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor7.fr/Offer858> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor7.fr/Offer858> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor7.fr/Offer858> bsbm:price ?price .
+    <http://www.vendor7.fr/Offer858> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor7.fr/Offer858> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_1/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor6.fr/Offer846>
+    <http://www.vendor6.fr/Offer846> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor6.fr/Offer846> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor6.fr/Offer846> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor6.fr/Offer846> bsbm:price ?price .
+    <http://www.vendor6.fr/Offer846> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor6.fr/Offer846> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_2/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor1.fr/Offer1062>
+    <http://www.vendor1.fr/Offer1062> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor1.fr/Offer1062> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor1.fr/Offer1062> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor1.fr/Offer1062> bsbm:price ?price .
+    <http://www.vendor1.fr/Offer1062> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor1.fr/Offer1062> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_3/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor4.fr/Offer863>
+    <http://www.vendor4.fr/Offer863> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor4.fr/Offer863> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor4.fr/Offer863> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor4.fr/Offer863> bsbm:price ?price .
+    <http://www.vendor4.fr/Offer863> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor4.fr/Offer863> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_4/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor4.fr/Offer1370>
+    <http://www.vendor4.fr/Offer1370> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor4.fr/Offer1370> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor4.fr/Offer1370> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor4.fr/Offer1370> bsbm:price ?price .
+    <http://www.vendor4.fr/Offer1370> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor4.fr/Offer1370> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_5/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor3.fr/Offer1797>
+    <http://www.vendor3.fr/Offer1797> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor3.fr/Offer1797> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor3.fr/Offer1797> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor3.fr/Offer1797> bsbm:price ?price .
+    <http://www.vendor3.fr/Offer1797> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor3.fr/Offer1797> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_6/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor0.fr/Offer2177>
+    <http://www.vendor0.fr/Offer2177> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor0.fr/Offer2177> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor0.fr/Offer2177> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor0.fr/Offer2177> bsbm:price ?price .
+    <http://www.vendor0.fr/Offer2177> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor0.fr/Offer2177> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_7/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor0.fr/Offer1179>
+    <http://www.vendor0.fr/Offer1179> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor0.fr/Offer1179> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor0.fr/Offer1179> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor0.fr/Offer1179> bsbm:price ?price .
+    <http://www.vendor0.fr/Offer1179> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor0.fr/Offer1179> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_8/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor0.fr/Offer2090>
+    <http://www.vendor0.fr/Offer2090> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor0.fr/Offer2090> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor0.fr/Offer2090> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor0.fr/Offer2090> bsbm:price ?price .
+    <http://www.vendor0.fr/Offer2090> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor0.fr/Offer2090> bsbm:validTo ?validTo 
+}
+==> /GDD/RSFB/experiments/bsbm/benchmark/generation/q12/instance_9/injected.sparql <==
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-export: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/export/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT * WHERE { 
+    # const <http://www.vendor0.fr/Offer867>
+    <http://www.vendor0.fr/Offer867> bsbm:product ?productURI .
+    ?productURI owl:sameAs ?ProductXYZ . 
+    ?productURI rdfs:label ?productlabel .
+    <http://www.vendor0.fr/Offer867> bsbm:vendor ?vendorURI .
+    ?vendorURI rdfs:label ?vendorname .
+    ?vendorURI foaf:homepage ?vendorhomepage .
+    <http://www.vendor0.fr/Offer867> bsbm:offerWebpage ?offerURL .
+    <http://www.vendor0.fr/Offer867> bsbm:price ?price .
+    <http://www.vendor0.fr/Offer867> bsbm:deliveryDays ?deliveryDays .
+    <http://www.vendor0.fr/Offer867> bsbm:validTo ?validTo 
+}

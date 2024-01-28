@@ -1,0 +1,144 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>fr.gdd</groupId>
+	<artifactId>fepassa</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+
+	<properties>
+		<jdk.version>21</jdk.version>
+		<maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+		<rdf4j.version>4.3.8</rdf4j.version>
+		<maven-surefire-plugin.version>3.0.0</maven-surefire-plugin.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>2.0.9</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.eclipse.rdf4j</groupId>
+			<artifactId>rdf4j-model</artifactId>
+			<version>${rdf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.rdf4j</groupId>
+			<artifactId>rdf4j-tools-federation</artifactId>
+			<version>${rdf4j.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-fuseki</artifactId>
+			<version>4.9.0</version>
+			<type>pom</type>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-fuseki-core</artifactId>
+			<version>4.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-fuseki-main</artifactId>
+			<version>4.9.0</version>
+		</dependency>
+
+		<dependency> <!-- logger of jena -->
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>2.0.9</version>
+		</dependency>
+		<dependency> <!-- setup simplelogger.properties -->
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>2.0.9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.10.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>fr.gdd</groupId>
+			<artifactId>fedup</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>21</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>21</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.mkpaz</groupId>
+			<artifactId>atlantafx-base</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+
+		<dependency>
+            <groupId>org.kordamp.ikonli</groupId>
+            <artifactId>ikonli-javafx</artifactId>
+			<version>12.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.kordamp.ikonli</groupId>
+            <artifactId>ikonli-material-pack</artifactId>			
+			<version>12.3.1</version>
+        </dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+					<showDeprecation>true</showDeprecation>
+					<showWarnings>true</showWarnings>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.openjfx</groupId>
+				<artifactId>javafx-maven-plugin</artifactId>
+				<version>0.0.4</version>
+				<configuration>
+					<mainClass>fr.gdd.fepassa.Bazar</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
